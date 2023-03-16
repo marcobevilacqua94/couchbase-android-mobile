@@ -1,6 +1,5 @@
 package com.cbmobile.inventory.compose
 
-import android.app.Application
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
 import com.cbmobile.inventory.compose.data.projects.ProjectRepositoryDb
@@ -13,8 +12,7 @@ import org.junit.Assert.*
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 class ProjectRepositoryUnitTest {
-    private val repository = ProjectRepositoryDb(ApplicationProvider.getApplicationContext<Context>())
-
+    // private val repository = ProjectRepositoryDb(ApplicationProvider.getApplicationContext<Context>())
     @Test
     fun testLocations() {
         //val results = repository.getLocations()
